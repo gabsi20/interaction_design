@@ -54,6 +54,10 @@ body{
     -webkit-align-items: stretch;
     align-items: stretch;
 }
+.menu a{
+	display: flex;
+	display: -webkit-flex;
+}
 .menu img{
 	width: 40px;
 	-webkit-filter: invert(100%);
