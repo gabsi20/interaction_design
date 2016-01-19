@@ -92,6 +92,7 @@ body{
 }
 .task-drop{
 	height: 60px;
+	width: 60px;
 }
 .task-text{
 	font-size: 0.8em;
