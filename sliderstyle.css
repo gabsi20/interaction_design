@@ -28,6 +28,15 @@ body{
 	top: 0px;
 	width: 100%;
 }
+.header img{
+	width: 40px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.header p{
+	font-family: GTPresLight, sans-serif;
+}
 .menu{
 	height: 60px;
 	background-color: #a6bd39;
