@@ -21,13 +21,16 @@ $(document).ready(function(){
 
   $('.caro').on("afterChange",function(){
     if ($('.slick-current').attr('src').indexOf("blue") >= 0){
-      $('.helpwhom').innerHTML("abc");
+      $('.help_whom').html("Help the Water planet");
+      $('.element').html("WATER");
     }
     else if($('.slick-current').attr('src').indexOf("green") >= 0){
-
+      $('.help_whom').html("Help the Green planet");
+      $('.element').html("GREEN");
     }
     else{
-
+      $('.help_whom').html("Help the Earth planet");
+      $('.element').html("EARTH");
     }
   })
 });

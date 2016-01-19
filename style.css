@@ -25,6 +25,19 @@ body{
 	position: absolute;
 	top: 60px;
 	width: 100%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+.menu img{
+	width: 40px;
 }
 .content{
 	box-sizing: border-box;
@@ -38,10 +51,18 @@ body{
     flex-direction: column;
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
     -webkit-align-items: stretch;
     align-items: stretch;
+}
+.help_whom{
+	text-align: center;
+}
+.element{
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
 }
 .slick-slide{
 	width: 180px;
