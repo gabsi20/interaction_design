@@ -20,11 +20,11 @@ $(document).ready(function(){
   });
 
   $('.caro').on("afterChange",function(){
-    if ($('.slick-current').attr('src').indexOf("blue") >= 0){
+    if ($('.slick-current img').first().attr('src').indexOf("blue") >= 0){
       $('.help_whom').html("Help the Water planet");
       $('.element').html("WATER");
     }
-    else if($('.slick-current').attr('src').indexOf("green") >= 0){
+    else if($('.slick-current img').first().attr('src').indexOf("green") >= 0){
       $('.help_whom').html("Help the Green planet");
       $('.element').html("GREEN");
     }
