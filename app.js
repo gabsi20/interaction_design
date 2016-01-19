@@ -18,7 +18,11 @@ $(document).ready(function(){
       }
     ]
   });
-
+  $('.task').click(function(){
+    $('.description').remove();
+    $(this).after('<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nisi ipsam, amet labore animi at fuga consequuntur, ut doloremque mollitia obcaecati modi magnam voluptatem neque numquam provident! Quis sint recusandae officia id, aliquid velit laudantium praesentium obcaecati, reiciendis mollitia, non.</div>');
+    $('.description').css('background-color',$(this).css('background-color'));
+  })
   $('.caro').on("afterChange",function(){
     if ($('.slick-current img').first().attr('src').indexOf("blue") >= 0){
       $('.help_whom').html("Help the Water planet");

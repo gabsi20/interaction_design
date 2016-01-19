@@ -71,10 +71,10 @@ body{
 	background-color: #ebebeb;
 	width: 100%;
 }
-.task:nth-child(even){
-	background-color: #fff;
+.taskeven{
+	 background-color: #fff;
 }
-.task:nth-child(odd){
+.taskodd{
 	background-color: #ebebeb;
 }
 .task{
@@ -89,6 +89,7 @@ body{
     justify-content: space-between;
     -webkit-align-items: center;
     align-items: center;
+   
 }
 .task-drop{
 	height: 60px;
@@ -106,4 +107,13 @@ body{
 	color: #00739a;
 	margin-right: 10px;
 	margin-left: 10px;
+}
+.description{
+	color: #222;
+	font-size: 0.5em;
+	font-family: GTPresLight, sans-serif;
+	width: 100%;
+	padding: 12px;
+	padding-left: 60px;
+	box-sizing: border-box;
 }
