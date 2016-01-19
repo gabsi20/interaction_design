@@ -86,6 +86,10 @@ body{
     -webkit-align-items: stretch;
     align-items: stretch;
 }
+.logo {
+	width: 335px;
+	margin: 0 auto;
+}
 .logo img{
 	width: 35%;
 	float: left;

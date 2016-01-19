@@ -1,0 +1,161 @@
+@font-face {
+    font-family: GTPresLight;
+    src: url('fonts/gt-pressura-mono-light.ttf');
+}
+@font-face {
+    font-family: GTPresBold;
+    src: url('fonts/gt-pressura-mono-bold.ttf');
+}
+
+body, html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	/* das soll der body background für die login seite sein!
+
+	background-image: url('images/background-img.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-size: cover;*/
+}
+.header{
+	height: 60px;
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+.header img{
+	width: 40px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.header p{
+	font-family: GTPresLight, sans-serif;
+}
+.menu{
+	height: 60px;
+	background-color: #a6bd39;
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+.menu img{
+	width: 40px;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+.content{
+	box-sizing: border-box;
+	padding-top: 120px;
+	background-color: #ebebeb;
+	height: 100%;
+	width: 100%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+p.element{
+	color: #fff;
+	font-family: GTPresBold;
+	font-size: 40px;
+	line-height: 0;
+	background: #01749D;
+	width: 33%;
+	margin: -115px auto 0 auto;
+	padding: 39px 0;
+}
+.tasks{
+	background: #fff;
+}
+.heading{
+	text-align: center;
+	font-family: GTPresLight;
+	color: #777;
+	padding: 10px 0;
+}
+.col{
+	color: white;
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+	height: 125px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	background: url('images/drop-icon.svg') no-repeat;
+	background-position: center;
+	background-size: 100px;
+}
+.done{
+	-webkit-filter: grayscale(100%);
+}
+.done p{
+	color: #999 !important;
+	margin-top: -77px !important;
+}
+.done p::before{
+	font-size: 0.5em;
+	color: green;
+	content: '✔';
+	display: block;
+	width: 10px;
+	height: 10px;
+	position: relative;
+	top: -40px;
+	left: 75px;
+}
+.done::before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: white;
+	opacity: 0.5;
+}
+.blocked{
+	color: #333 !important;
+	-webkit-filter: grayscale(100%);
+}
+.blocked p{
+	margin-top: 40px !important;
+}
+.blocked p::before{
+	font-size: 0.5em;
+	color: green;
+	content: '';
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: -30px;
+	left: 70px;
+	background: url('images/blocked.png') no-repeat;
+	background-size: 15px;
+}
+.col p{
+	margin-top: 55px;
+	font-family: GTPresLight;
+	font-size: 2em;
+}
