@@ -1,0 +1,55 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	/* das soll der body background für die login seite sein!
+
+	background-image: url('images/background-img.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-size: cover;*/
+}
+.header{
+	height: 60px;
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+.menu{
+	height: 60px;
+	background-color: #a6bd39;
+	position: absolute;
+	top: 60px;
+	width: 100%;
+}
+.content{
+	box-sizing: border-box;
+	padding-top: 120px;
+	background-color: #ebebeb;
+	height: 100%;
+	width: 100%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+.slick-slide{
+	width: 180px;
+}
+.slick-current{
+	width: 220px;
+
+}
+.caro{
+	max-height: 60%;
+}
