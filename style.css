@@ -1,3 +1,12 @@
+@font-face {
+    font-family: GTPresLight;
+    src: url('fonts/gt-pressura-mono-light.ttf');
+}
+@font-face {
+    font-family: GTPresBold;
+    src: url('fonts/gt-pressura-mono-bold.ttf');
+}
+
 body, html{
 	height: 100%;
 	margin: 0;
@@ -38,6 +47,8 @@ body{
 }
 .menu img{
 	width: 40px;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
 }
 .content{
 	box-sizing: border-box;
@@ -58,11 +69,13 @@ body{
 }
 .help_whom{
 	text-align: center;
+	font-family: GTPresLight, sans-serif;
 }
 .element{
 	font-size: 40px;
 	color: #fff;
 	text-align: center;
+	font-family: GTPresBold, sans-serif;
 }
 .slick-slide{
 	width: 180px;
