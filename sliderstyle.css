@@ -93,11 +93,10 @@ body{
 	font-family: GTPresBold, sans-serif;
 }
 .slick-slide{
-	width: 120px;
+	width: 140px;
 }
 .slick-current{
-	width: 150px;
-
+	width: 180px
 }
 .caro{
 	max-height: 60%;

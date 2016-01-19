@@ -29,11 +29,11 @@ $(document).ready(function(){
       $('.element').html("WATER");
     }
     else if($('.slick-current img').first().attr('src').indexOf("green") >= 0){
-      $('.help_whom').html("Help the Green planet");
-      $('.element').html("GREEN");
+      $('.help_whom').html("Help the planets nature");
+      $('.element').html("NATURE");
     }
     else{
-      $('.help_whom').html("Help the Earth planet");
+      $('.help_whom').html("Help the planet Earth");
       $('.element').html("EARTH");
     }
   })
