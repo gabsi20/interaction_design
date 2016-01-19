@@ -1,0 +1,164 @@
+@font-face {
+    font-family: GTPresLight;
+    src: url('fonts/gt-pressura-mono-light.ttf');
+}
+@font-face {
+    font-family: GTPresBold;
+    src: url('fonts/gt-pressura-mono-bold.ttf');
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MAIN CSS */
+
+body, html{
+	font-family: GTPresLight;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('images/background-img.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-size: cover;
+}
+.content{
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+.logo img{
+	width: 35%;
+	float: left;
+}
+.logo .name{
+	margin-top: 35px;
+}
+.logo strong{
+	font-family: GTPresBold;
+	font-size: 3em;
+}
+.logo .claim{
+	color: #ccc;
+	font-size: .75em;
+}
+.login-form{
+	margin: 0 auto;
+	width: 80%;
+	height: 155px;
+	background: white;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: #555 2px 2px 5px;
+	text-align: center;
+}
+.login-form input{
+	background: #ebebeb;
+	border: none;
+	padding: 10px;
+	width: 80%;
+	margin-top: 20px;
+}
+.login-form button{
+	font-family: GTPresLight;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: white;
+	background: #a6bd39;
+	box-shadow: #555 2px 2px 5px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: none;
+	position: relative;
+	top: 25px;
+}
+.no-bg{
+	background: none;
+	box-shadow: none;
+}
+.profile-icon{
+	height: 180px;
+	width: 180px;
+	margin: 20px auto 0 auto;
+	background: url('images/default-avatar.svg') white;
+	background-repeat: no-repeat;
+	background-position: 0 10px;
+	border-radius: 50%;
+	box-shadow: #555 2px 2px 5px;
+}
+.sign-up{
+	text-align: center;
+	font-size: 0.8em;
+	color: white;
+}
+.sign-up a{
+	margin: 10px auto;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	display: block;
+	width: 180px;
+	background: #6B7E28;
+	border-radius: 5px;
+}
