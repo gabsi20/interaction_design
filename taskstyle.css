@@ -65,39 +65,55 @@ body{
 	display: flex;
 	display: -webkit-flex;
 }
-.content{
+.task_content{
 	box-sizing: border-box;
 	padding-top: 120px;
 	background-color: #ebebeb;
-	height: 100%;
 	width: 100%;
+}
+.taskeven{
+	 background-color: #fff;
+}
+.taskodd{
+	background-color: #ebebeb;
+}
+.task{
+	height: 80px;
 	display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    flex-direction: row;
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
-    -webkit-align-items: stretch;
-    align-items: stretch;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+   
 }
-.help_whom{
+.task-drop{
+	height: 60px;
+	width: 60px;
+}
+.task-text{
+	font-size: 0.8em;
 	text-align: center;
 	font-family: GTPresLight, sans-serif;
+
 }
-.element{
+.task-percentage{
 	font-size: 40px;
-	color: #fff;
-	text-align: center;
 	font-family: GTPresBold, sans-serif;
+	color: #00739a;
+	margin-right: 10px;
+	margin-left: 10px;
 }
-.slick-slide{
-	width: 140px;
-}
-.slick-current{
-	width: 180px
-}
-.caro{
-	max-height: 60%;
+.description{
+	color: #222;
+	font-size: 0.5em;
+	font-family: GTPresLight, sans-serif;
+	width: 100%;
+	padding: 12px;
+	padding-left: 60px;
+	box-sizing: border-box;
 }
